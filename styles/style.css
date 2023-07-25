@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+main {
+  background-color: black;
+  height: 300px;
+}
+.nav-link-mine {
+  padding: 8px 0 8px 0;
+  text-decoration: none;
+  color: black;
+}
+.chat-home {
+  height: 200px;
+  background-color: blue;
+  border: 2px solid;
+  border-radius: 5px;
+}
