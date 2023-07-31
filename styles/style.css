@@ -2,7 +2,7 @@ h1 {
   text-align: center;
 }
 main {
-  background-color: black;
+  background-image: url(Main\ foto.png);
   height: 300px;
 }
 .nav-link-mine {
