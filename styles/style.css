@@ -15,8 +15,10 @@ main {
   border: 1px solid;
 }
 .chathome-icon {
+  background-color: darkblue;
+  color: white;
   position: relative;
-  top: 140px;
+  top: 100px;
   border-top: 1px solid;
 }
 .chat1 {
