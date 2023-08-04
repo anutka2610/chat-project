@@ -1,3 +1,8 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
 h1 {
   text-align: center;
 }
@@ -10,8 +15,21 @@ footer {
   background-color: lightblue;
   font-size: 10px;
 }
+ul {
+  font-size: 20px;
+  line-height: 26px;
+}
+.header {
+  margin-top: 40px;
+  margin-left: 100px;
+  max-width: 1240px !important;
+  height: 67px !important;
+  background-color: white !important;
+}
+
 .logo {
-  max-width: 70px;
+  max-width: 131px;
+  max-height: 67px;
 }
 .nav-link-mine {
   padding: 8px 0 8px 0;
