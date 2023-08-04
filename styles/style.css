@@ -23,6 +23,7 @@ footer {
   font-size: 10px;
 }
 ul {
+  color: #0f1e28;
   font-size: 20px;
   line-height: 26px;
 }
@@ -56,15 +57,19 @@ ul {
   margin-bottom: 40px;
 }
 .chat-home {
-  height: 200px;
-  border: 1px solid;
+  height: 312px;
+  width: 295px;
+}
+.img-chat {
+  width: 295px;
+  height: 252px;
 }
 .chathome-icon {
-  background-color: darkblue;
+  background-color: #024a7a;
+  width: 295px;
+  height: 60px;
   color: white;
-  position: relative;
-  top: 100px;
-  border-top: 1px solid;
+  margin: 0;
 }
 
 .chat1 {
