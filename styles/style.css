@@ -80,6 +80,8 @@ ul {
   height: 60px;
   color: white;
   margin: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .chat1 {
