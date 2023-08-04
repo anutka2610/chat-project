@@ -4,11 +4,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 h1 {
-  text-align: center;
+  font-weight: 700;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.68px;
 }
 main {
   background-image: url(Main\ foto.png);
-  height: 300px;
+  height: 356px;
+  width: 1440px;
+  margin-bottom: 100px;
 }
 footer {
   height: 100px;
@@ -20,8 +27,7 @@ ul {
   line-height: 26px;
 }
 .header {
-  margin-top: 40px;
-  margin-left: 100px;
+  margin: 40px 0 40px 100px;
   max-width: 1240px !important;
   height: 67px !important;
   background-color: white !important;
@@ -31,10 +37,23 @@ ul {
   max-width: 131px;
   max-height: 67px;
 }
-.nav-link-mine {
-  padding: 8px 0 8px 0;
-  text-decoration: none;
-  color: black;
+
+.text-main {
+  padding: 126px 0 0 97px;
+  max-width: 709px;
+}
+.text-main p {
+  font-weight: 400;
+}
+.text-left-main {
+  text-align: left;
+  color: #f5fbff;
+}
+.chats h2 {
+  max-width: 361px;
+}
+.chats {
+  margin-bottom: 40px;
 }
 .chat-home {
   height: 200px;
@@ -47,6 +66,7 @@ ul {
   top: 100px;
   border-top: 1px solid;
 }
+
 .chat1 {
   background-image: url("../photo/Foto-tent.png");
 }
