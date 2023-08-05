@@ -109,4 +109,7 @@ footer {
 .footer-menu {
   margin-top: 30px;
   margin-bottom: 38px;
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
 }
