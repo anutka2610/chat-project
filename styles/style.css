@@ -132,6 +132,10 @@ footer .logo {
   background-image: url("../photo/Picture.png");
 }
 
+.chat6 img {
+  padding-bottom: 40px;
+}
+
 .footer-menu {
   margin-top: 30px;
   margin-bottom: 38px;
