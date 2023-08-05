@@ -35,6 +35,10 @@ footer {
   color: #0f1e28;
 }
 
+footer .logo {
+  padding-top: 20px;
+}
+
 .header {
   margin: 40px 0 40px 100px;
   max-width: 1240px !important;
@@ -45,6 +49,24 @@ footer {
 .logo {
   max-width: 131px;
   max-height: 67px;
+}
+
+.toogle {
+  background-image: url("../photo/toogle-light.png");
+  width: 100px;
+  height: 54px;
+}
+.toogle:hover {
+  background-image: url("../photo/toogle-light-hover.png");
+}
+.language {
+  background-image: url("../photo/eng.png");
+  width: 100px;
+  height: 54px;
+}
+
+.language:hover {
+  background-image: url("../photo/eng-hover.png");
 }
 
 .text-main {
@@ -104,6 +126,10 @@ footer {
 }
 .chat5 {
   background-image: url("../photo/foto-tent4.png");
+}
+
+.chat6 {
+  background-image: url("../photo/Picture.png");
 }
 
 .footer-menu {
