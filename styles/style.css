@@ -113,3 +113,9 @@ footer {
   column-gap: 50px;
   justify-content: center;
 }
+.footer-comment {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
