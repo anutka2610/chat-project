@@ -29,6 +29,12 @@ ul {
   font-size: 20px;
   line-height: 26px;
 }
+
+footer {
+  font-size: 14px;
+  color: #0f1e28;
+}
+
 .header {
   margin: 40px 0 40px 100px;
   max-width: 1240px !important;
@@ -98,4 +104,9 @@ ul {
 }
 .chat5 {
   background-image: url("../photo/foto-tent4.png");
+}
+
+.footer-menu {
+  margin-top: 30px;
+  margin-bottom: 38px;
 }
