@@ -25,9 +25,12 @@ footer {
   font-size: 10px;
 }
 ul {
-  color: #0f1e28;
   font-size: 20px;
   line-height: 26px;
+}
+
+a {
+  color: #0f1e28 !important;
 }
 
 footer {
@@ -106,7 +109,8 @@ footer .logo {
   background-color: #024a7a;
   width: 295px;
   height: 60px;
-  color: white;
+  color: #f5fbff;
+
   margin: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
