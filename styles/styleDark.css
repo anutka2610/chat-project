@@ -14,7 +14,7 @@ h2 {
   color: #f5fbff;
 }
 main {
-  background-image: url(Main\ foto.png);
+  background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Main%20foto_DES.png");
   height: 356px;
   width: 1440px;
   margin-bottom: 100px;
@@ -120,19 +120,19 @@ a {
 }
 
 .chat1 {
-  background-image: url("../photo/Foto-tent.png");
+  background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20tent_room1_DES.png");
 }
 .chat2 {
-  background-image: url("../photo/foto-tent1.png");
+  background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20backpack_room2_DES.png");
 }
 .chat3 {
-  background-image: url("../photo/foto-tent2.png");
+  background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20bicycle_room3_DES.png");
 }
 .chat4 {
-  background-image: url("../photo/foto-tent3.png");
+  background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20fishing_room4_DES.png");
 }
 .chat5 {
-  background-image: url("../photo/foto-tent4.png");
+  background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20furniture_room5_DES.png");
 }
 
 .chat6 {
