@@ -156,3 +156,20 @@ a {
   padding-left: 100px;
   padding-right: 100px;
 }
+
+@media (max-width: 670px) {
+  main {
+    background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Main%20foto%20700px.jpg");
+    height: 312px;
+    width: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 363px) {
+  main {
+    background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Main%20foto%20393px.jpg");
+    height: 428px;
+    width: 0 auto;
+    margin-bottom: 100px;
+  }
+}

@@ -15,16 +15,17 @@ h2 {
 main {
   background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Main%20foto_DES.png");
   height: 356px;
-  width: 1440px;
+
   margin-bottom: 100px;
 }
 
 footer {
   margin-top: 100px;
-  width: 1440px;
+
   height: 207px;
   background-color: #c5e6fd;
-  font-size: 10px;
+  font-size: 14px;
+  color: #0f1e28;
 }
 ul {
   font-size: 20px;
@@ -35,13 +36,8 @@ a {
   color: #0f1e28 !important;
 }
 
-footer {
-  font-size: 14px;
-  color: #0f1e28;
-}
-
 footer .logo {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .header {
