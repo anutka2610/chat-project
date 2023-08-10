@@ -89,10 +89,10 @@ footer .logo {
 }
 .chat-home {
   height: 312px;
-  width: 295px;
+  max-width: 295px;
 }
 .img-chat {
-  width: 295px;
+  max-width: 295px;
   height: 252px;
   color: #f5fbff;
   display: flex;
@@ -105,10 +105,9 @@ footer .logo {
 }
 .chathome-icon {
   background-color: #024a7a;
-  width: 295px;
+  max-width: 295px;
   height: 60px;
   color: #f5fbff;
-
   margin: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
