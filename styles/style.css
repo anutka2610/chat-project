@@ -99,6 +99,7 @@ footer .logo {
 .img-chat p {
   max-width: 190px;
   font-size: 20px;
+  font-weight: 600;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -171,5 +172,8 @@ footer .logo {
     height: 428px;
     width: 0 auto;
     margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 36px;
   }
 }
