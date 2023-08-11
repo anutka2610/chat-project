@@ -173,7 +173,7 @@ footer .logo {
     width: 0 auto;
     margin-bottom: 100px;
   }
-  h1 {
-    font-size: 36px;
+  .text-main {
+    padding-left: 16px;
   }
 }
