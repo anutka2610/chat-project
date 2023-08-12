@@ -55,10 +55,19 @@ a {
   max-height: 67px;
 }
 
+.nav-link {
+  font-size: 18px !important;
+}
+
+.toogles ul {
+  padding: 0 !important;
+}
+
 .toogle {
   background-image: url("../photo/toogle.png");
   width: 100px;
   height: 54px;
+  margin-right: 20px;
 }
 .toogle:hover {
   background-image: url("../photo/toogle-hover.png");
@@ -169,6 +178,10 @@ a {
     width: 0 auto;
     margin-bottom: 100px;
   }
+  .nav-link {
+    font-size: 14px !important;
+  }
+
   .img-chat p {
     font-size: 16px;
     font-weight: 500;

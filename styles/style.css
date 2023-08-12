@@ -3,6 +3,7 @@ body {
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
 }
+
 h1 {
   font-weight: 700;
 }
@@ -52,10 +53,19 @@ footer .logo {
   max-height: 67px;
 }
 
+.nav-link {
+  font-size: 18px !important;
+}
+
+.toogles ul {
+  padding: 0 !important;
+}
+
 .toogle {
   background-image: url("../photo/toogle-light.png");
   width: 100px;
   height: 54px;
+  margin-right: 20px;
 }
 .toogle:hover {
   background-image: url("../photo/toogle-light-hover.png");
@@ -165,6 +175,14 @@ footer .logo {
     width: 0 auto;
     margin-bottom: 100px;
   }
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .toogle {
+    background-image: url("../photo/toogle-light.png");
+    width: 70px;
+    height: auto;
+  }
 }
 @media (max-width: 363px) {
   main {
@@ -173,7 +191,19 @@ footer .logo {
     width: 0 auto;
     margin-bottom: 100px;
   }
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
   .text-main {
     padding-left: 16px;
+  }
+  .text-main p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .img-chat p {
+    font-size: 14px;
+    font-weight: 500;
   }
 }
