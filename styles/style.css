@@ -62,22 +62,7 @@ footer .logo {
 }
 
 .toogle {
-  background-image: url("../photo/toogle-light.png");
-  width: 100px;
-  height: 54px;
   margin-right: 20px;
-}
-.toogle:hover {
-  background-image: url("../photo/toogle-light-hover.png");
-}
-.language {
-  background-image: url("../photo/eng.png");
-  width: 100px;
-  height: 54px;
-}
-
-.language:hover {
-  background-image: url("../photo/eng-hover.png");
 }
 
 .text-main {
@@ -168,6 +153,41 @@ footer .logo {
   padding-right: 100px;
 }
 
+@media (max-width: 990px) {
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .left {
+    justify-content: left;
+  }
+  .header button {
+    margin-left: 20px;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
+  .toogles {
+    margin-left: 40px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+}
+
 @media (max-width: 670px) {
   main {
     background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Main%20foto%20700px.jpg");
@@ -175,13 +195,41 @@ footer .logo {
     width: 0 auto;
     margin-bottom: 100px;
   }
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
   .nav-link {
     font-size: 14px !important;
   }
-  .toogle {
-    background-image: url("../photo/toogle-light.png");
-    width: 70px;
-    height: auto;
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+  left {
+    justify-content: left;
+  }
+  .header .logo {
+    margin: 0 !important;
+  }
+
+  .header span {
+    width: 25px;
+    height: 15px;
+  }
+
+  .toogles {
+    margin-left: 40px;
   }
 }
 @media (max-width: 363px) {
@@ -205,5 +253,23 @@ footer .logo {
   .img-chat p {
     font-size: 14px;
     font-weight: 500;
+  }
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  left {
+    justify-content: left;
   }
 }
