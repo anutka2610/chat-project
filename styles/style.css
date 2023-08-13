@@ -98,6 +98,7 @@ footer .logo {
   font-size: 20px;
   font-weight: 600;
   position: absolute;
+
   left: 0;
   bottom: 0;
   margin: 0;
@@ -221,16 +222,25 @@ footer .logo {
   .header {
     margin: 20px 0 20px 0;
   }
-  left {
-    justify-content: left;
-  }
+
   .header .logo {
     margin: 0 !important;
+  }
+  .img-chat p {
+    font-size: 14px;
+    font-weight: 500;
   }
 
   .header span {
     width: 25px;
     height: 15px;
+  }
+  .chathome-icon {
+    height: 42px;
+  }
+  .chathome-icon img {
+    height: 16px;
+    width: 26px;
   }
 
   .toogles {
@@ -274,6 +284,13 @@ footer .logo {
   .img-chat p {
     font-size: 14px;
     font-weight: 500;
+  }
+  .chathome-icon {
+    height: 36px;
+  }
+  .chathome-icon img {
+    height: 16px;
+    width: 26px;
   }
   .toogles .navbar-nav {
     flex-direction: row;
