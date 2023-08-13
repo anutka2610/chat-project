@@ -22,7 +22,6 @@ main {
 
 footer {
   margin-top: 100px;
-
   height: 207px;
   background-color: #c5e6fd;
   font-size: 14px;
@@ -41,6 +40,9 @@ footer .logo {
   margin-top: 20px;
 }
 
+.container-fluid {
+  padding: 0;
+}
 .header {
   margin: 40px 0 40px 100px;
   max-width: 1240px !important;
@@ -149,8 +151,7 @@ footer .logo {
 .footer-comment {
   display: flex;
   justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 100px 0 100px;
 }
 
 @media (max-width: 990px) {
@@ -186,6 +187,9 @@ footer .logo {
     width: 48px;
     height: 26px;
   }
+  .footer-comment {
+    padding: 0 50px 0 50px;
+  }
 }
 
 @media (max-width: 670px) {
@@ -195,6 +199,7 @@ footer .logo {
     width: 0 auto;
     margin-bottom: 100px;
   }
+
   .logo {
     width: 70px;
     height: 36px;
@@ -234,6 +239,19 @@ footer .logo {
   .text-main {
     padding-left: 16px;
   }
+  .footer-comment,
+  .footer-menu {
+    padding: 0 16px 0 16px;
+    font-size: 12px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrap div {
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 363px) {
   main {
@@ -272,7 +290,20 @@ footer .logo {
     width: 48px;
     height: 26px;
   }
-  left {
-    justify-content: left;
+  .footer-comment {
+    padding: 0 16px 0 16px;
+  }
+  .footer-comment,
+  .footer-menu {
+    padding: 0 16px 0 16px;
+    font-size: 12px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrap div {
+    padding-bottom: 20px;
   }
 }
