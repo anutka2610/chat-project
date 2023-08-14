@@ -26,6 +26,9 @@ footer {
   font-size: 14px;
   color: #0f1e28;
 }
+footer a {
+  text-decoration: none;
+}
 ul {
   font-size: 20px;
   line-height: 26px;
@@ -147,6 +150,7 @@ a {
   column-gap: 50px;
   justify-content: center;
 }
+
 .footer-comment {
   display: flex;
   justify-content: space-between;

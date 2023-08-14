@@ -25,14 +25,12 @@ footer {
   font-size: 14px;
   color: #f5fbff !important;
 }
+footer a {
+  text-decoration: none;
+}
 ul {
   font-size: 20px;
   line-height: 26px;
-}
-
-footer {
-  font-size: 14px;
-  color: #0f1e28;
 }
 
 footer .logo {
