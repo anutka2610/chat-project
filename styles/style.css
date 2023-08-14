@@ -84,7 +84,7 @@ a {
   max-width: 361px;
 }
 .chats {
-  margin-bottom: 40px;
+  margin: 0px 0 40px 100px;
 }
 .chat-home {
   max-height: 312px;
@@ -265,7 +265,9 @@ a {
     padding: 0 16px 0 16px;
     font-size: 12px;
   }
-
+  .chats {
+    margin: 0px 0 40px 0;
+  }
   .wrap {
     display: flex;
     flex-wrap: wrap;
