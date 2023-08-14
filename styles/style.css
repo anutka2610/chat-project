@@ -16,7 +16,6 @@ h2 {
 main {
   background-image: url("https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Main%20foto_DES.png");
   height: 356px;
-
   margin-bottom: 100px;
 }
 
@@ -36,8 +35,8 @@ a {
   color: #0f1e28 !important;
 }
 
-footer .logo {
-  margin-top: 20px;
+.logo-footer {
+  padding-top: 20px;
 }
 
 .container-fluid {
@@ -45,18 +44,18 @@ footer .logo {
 }
 .header {
   margin: 40px 0 40px 100px;
-  max-width: 1240px !important;
-  height: 67px !important;
-  background-color: white !important;
+  max-width: 1240px;
+  height: 67px;
+  background-color: white;
 }
 
 .logo {
-  max-width: 131px;
-  max-height: 67px;
+  width: 131px;
+  height: 67px;
 }
 
 .nav-link {
-  font-size: 18px !important;
+  font-size: 18px;
 }
 
 .toogles ul {
@@ -98,7 +97,6 @@ footer .logo {
   font-size: 20px;
   font-weight: 600;
   position: absolute;
-
   left: 0;
   bottom: 0;
   margin: 0;
@@ -154,6 +152,11 @@ footer .logo {
   justify-content: space-between;
   padding: 0 100px 0 100px;
 }
+.wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
 
 @media (max-width: 990px) {
   .toogles .navbar-nav {
@@ -190,6 +193,10 @@ footer .logo {
   }
   .footer-comment {
     padding: 0 50px 0 50px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
 
@@ -258,9 +265,7 @@ footer .logo {
   .wrap {
     display: flex;
     flex-wrap: wrap;
-  }
-  .wrap div {
-    padding-bottom: 20px;
+    gap: 34px;
   }
 }
 @media (max-width: 363px) {
@@ -319,8 +324,6 @@ footer .logo {
   .wrap {
     display: flex;
     flex-wrap: wrap;
-  }
-  .wrap div {
-    padding-bottom: 20px;
+    gap: 34px;
   }
 }

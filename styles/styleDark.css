@@ -43,11 +43,14 @@ a {
   color: #f5fbff !important;
 }
 
+.container-fluid {
+  padding: 0;
+}
 .header {
   margin: 40px 0 40px 100px;
-  max-width: 1240px !important;
-  height: 67px !important;
-  background-color: #0f1e28 !important;
+  max-width: 1240px;
+  height: 67px;
+  background-color: #0f1e28;
 }
 
 .logo {
@@ -56,7 +59,7 @@ a {
 }
 
 .nav-link {
-  font-size: 18px !important;
+  font-size: 18px;
 }
 
 .toogles ul {
@@ -64,22 +67,7 @@ a {
 }
 
 .toogle {
-  background-image: url("../photo/toogle.png");
-  width: 100px;
-  height: 54px;
   margin-right: 20px;
-}
-.toogle:hover {
-  background-image: url("../photo/toogle-hover.png");
-}
-.language {
-  background-image: url("../photo/languageDark.png");
-  width: 100px;
-  height: 54px;
-}
-
-.language:hover {
-  background-image: url("../photo/languageDarkHover.png");
 }
 
 .text-main {
@@ -123,7 +111,6 @@ a {
   max-width: 295px;
   height: 60px;
   color: #f5fbff;
-
   margin: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -167,8 +154,54 @@ a {
 .footer-comment {
   display: flex;
   justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 100px 0 100px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+
+@media (max-width: 990px) {
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .left {
+    justify-content: left;
+  }
+  .header button {
+    margin-left: 20px;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
+  .toogles {
+    margin-left: 40px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .footer-comment {
+    padding: 0 50px 0 50px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 
 @media (max-width: 670px) {
@@ -178,13 +211,64 @@ a {
     width: 0 auto;
     margin-bottom: 100px;
   }
+  logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
   .nav-link {
     font-size: 14px !important;
   }
 
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
   .img-chat p {
     font-size: 16px;
     font-weight: 500;
+  }
+  .header span {
+    width: 25px;
+    height: 15px;
+  }
+  .chathome-icon {
+    height: 42px;
+  }
+  .chathome-icon img {
+    height: 16px;
+    width: 26px;
+  }
+
+  .toogles {
+    margin-left: 40px;
+  }
+  .text-main {
+    padding-left: 16px;
+  }
+  .footer-comment,
+  .footer-menu {
+    padding: 0 16px 0 16px;
+    font-size: 12px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
   }
 }
 @media (max-width: 363px) {
@@ -208,5 +292,41 @@ a {
   .img-chat p {
     font-size: 14px;
     font-weight: 500;
+  }
+  .chathome-icon {
+    height: 36px;
+  }
+  .chathome-icon img {
+    height: 16px;
+    width: 26px;
+  }
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .footer-comment {
+    padding: 0 16px 0 16px;
+  }
+  .footer-comment,
+  .footer-menu {
+    padding: 0 16px 0 16px;
+    font-size: 12px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
   }
 }
