@@ -38,6 +38,10 @@ a {
   color: #0f1e28 !important;
 }
 
+.gap {
+  gap: 16px;
+}
+
 .logo-footer {
   padding-top: 20px;
 }
@@ -87,9 +91,13 @@ a {
   margin: 0px 0 40px 100px;
 }
 .chat-home {
+  border-radius: 20px;
+  padding: 0;
   max-height: 312px;
   max-width: 295px;
+  box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
 }
+
 .img-chat {
   max-width: 295px;
   max-height: 252px;
