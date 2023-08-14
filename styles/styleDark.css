@@ -48,7 +48,7 @@ a {
   margin: 40px 0 40px 100px;
   max-width: 1240px;
   height: 67px;
-  background-color: #0f1e28;
+  background-color: #0f1e28 !important ;
 }
 
 .logo {
@@ -170,6 +170,7 @@ a {
   }
   .header {
     margin: 20px 0 20px 0;
+    background-color: #182a36;
   }
 
   .left {
