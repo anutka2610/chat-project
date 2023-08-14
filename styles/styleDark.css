@@ -230,7 +230,7 @@ a {
     height: 26px;
   }
   .header {
-    margin: 20px 0 20px 0;
+    margin: 20px 16px 20px 16px;
   }
 
   .header .logo {
@@ -330,5 +330,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 34px;
+  }
+  .header {
+    margin: 20px 16px 20px 16px;
   }
 }
