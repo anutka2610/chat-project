@@ -91,6 +91,7 @@ a {
   margin: 0px 0 40px 100px;
 }
 .chat-home {
+  border: 2px rgba(2, 135, 223, 1);
   border-radius: 20px;
   padding: 0;
   max-height: 312px;

@@ -91,6 +91,7 @@ a {
 }
 
 .chat-home {
+  border: 2px rgba(2, 135, 223, 1);
   border-radius: 20px;
   padding: 0;
   max-height: 312px;
@@ -114,7 +115,7 @@ a {
 }
 
 .chat6 p {
-  color: rgba(15, 30, 40, 1);
+  color: rgba(245, 251, 255, 1);
   margin: 0 0 0 -50px;
 }
 
