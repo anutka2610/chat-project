@@ -33,7 +33,7 @@ ul {
   line-height: 26px;
 }
 
-footer .logo {
+.logo-footer {
   padding-top: 20px;
 }
 
@@ -112,6 +112,12 @@ a {
   bottom: 0;
   z-index: 100;
 }
+
+.chat6 p {
+  color: rgba(15, 30, 40, 1);
+  margin: 0 0 0 -50px;
+}
+
 .chathome-icon {
   background-color: #0287df;
   max-width: 295px;

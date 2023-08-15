@@ -109,11 +109,16 @@ a {
   font-weight: 600;
   position: absolute;
   bottom: 0;
-  margin: 0;
-  z-index: 100;
+
+  z-index: 10;
   left: 50%;
   margin: 0 0 0 -85px;
 }
+.chat6 p {
+  color: rgba(15, 30, 40, 1);
+  margin: 0 0 0 -50px;
+}
+
 .chathome-icon {
   background-color: #024a7a;
   max-width: 295px;
@@ -123,25 +128,7 @@ a {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-
-.chat1 {
-  position: relative;
-}
-
-.chat2 {
-  position: relative;
-}
-.chat3 {
-  position: relative;
-}
-.chat4 {
-  position: relative;
-}
-.chat5 {
-  position: relative;
-}
-
-.chat6 {
+.img-chat {
   position: relative;
 }
 
