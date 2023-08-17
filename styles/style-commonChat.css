@@ -1,0 +1,196 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  margin-top: 100px;
+  height: 207px;
+  background-color: #c5e6fd;
+  font-size: 14px;
+  color: #0f1e28;
+}
+footer a {
+  text-decoration: none;
+}
+ul {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+a {
+  color: #0f1e28 !important;
+}
+
+.gap {
+  gap: 16px;
+}
+
+.logo-footer {
+  padding-top: 20px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.header {
+  margin: 40px 0 40px 100px;
+  max-width: 1240px;
+  height: 67px;
+  background-color: white !important;
+}
+
+.logo {
+  width: 131px;
+  height: 67px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.toogles ul {
+  padding: 0 !important;
+}
+
+.toogle {
+  margin-right: 20px;
+}
+.footer-menu {
+  margin-top: 30px;
+  margin-bottom: 38px;
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.footer-comment {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+
+@media (max-width: 990px) {
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .left {
+    justify-content: left;
+  }
+  .header button {
+    margin-left: 20px;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
+  .toogles {
+    margin-left: 40px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .footer-comment {
+    padding: 0 50px 0 50px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 670px) {
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
+  .header span {
+    width: 25px;
+    height: 15px;
+  }
+  .toogles {
+    margin-left: 40px;
+  }
+  .footer-comment,
+  .footer-menu {
+    padding: 0 16px 0 16px;
+    font-size: 12px;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+  }
+}
+
+@media (max-width: 363px) {
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .footer-comment {
+    padding: 0 16px 0 16px;
+  }
+  .footer-comment,
+  .footer-menu {
+    padding: 0 16px 0 16px;
+    font-size: 12px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+  }
+}
