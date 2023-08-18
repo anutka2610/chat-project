@@ -2,6 +2,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
+  background: rgba(245, 251, 255, 1);
 }
 
 footer {
@@ -23,6 +24,8 @@ a {
   color: #0f1e28 !important;
 }
 main {
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding: 0 100px 0 100px;
   color: rgba(15, 30, 40, 1) !important;
 }
@@ -31,6 +34,45 @@ h1 {
   height: 63px;
   font-weight: 500px;
   font-size: 32px !important;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 26px;
+  color: rgba(15, 30, 40, 1);
+}
+
+.chat-content {
+  max-width: 1240px;
+  max-height: 862px;
+  gap: 20px;
+}
+
+.chat-members {
+  width: 316px;
+  height: 862px;
+  box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
+
+  border: 2px solid rgba(2, 74, 122, 1);
+  border-radius: 20px;
+  background: linear-gradient(0deg, #f5fbff, #f5fbff);
+}
+
+.field-message {
+  width: 905px;
+  height: 862px;
+}
+
+.all-messages {
+  width: 905px;
+  height: 763px;
+  border-radius: 20px;
+  border: 2px solid rgba(2, 74, 122, 1);
+  padding: 10px, 20px, 16px, 20px;
+  background: linear-gradient(0deg, #f5fbff, #f5fbff);
 }
 
 .gap {
@@ -48,7 +90,7 @@ h1 {
   margin: 40px 0 40px 100px;
   max-width: 1240px;
   height: 67px;
-  background-color: white !important;
+  background: rgba(245, 251, 255, 1) !important;
 }
 
 .logo {
