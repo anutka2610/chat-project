@@ -93,7 +93,7 @@
       </nav>
       <main>
         <h1>Topic: Tourist furniture and tableware</h1>
-        <diw class="row d-flex chat-content text-center">
+        <div class="row d-flex chat-content text-center">
           <div class="col chat-members">
             <h3>Chat members</h3>
           </div>
@@ -105,8 +105,24 @@
               />
               <h2>Oops.. there are no messages here yet Write first!</h2>
             </div>
+            <form class="search-form" id="search-form">
+              <div class="row justify-content-between">
+                <div class="col-8">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="message-input"
+                    placeholder="Write message"
+                    aria-label="Write message"
+                  />
+                </div>
+                <div class="col-2">
+                  <input type="submit" value="Send" class="send" id="send" />
+                </div>
+              </div>
+            </form>
           </div>
-        </diw>
+        </div>
       </main>
       <footer>
         <div class="logo-footer">

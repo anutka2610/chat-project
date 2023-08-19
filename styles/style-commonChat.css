@@ -55,6 +55,12 @@ h2 {
   margin: 0 auto;
 }
 
+form {
+  width: 905px;
+  height: 79px;
+  padding-top: 20px;
+}
+
 .chat-content {
   max-width: 1240px;
   max-height: 862px;
