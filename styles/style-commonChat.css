@@ -59,17 +59,17 @@ form {
   width: 905px;
   height: 79px;
   padding-top: 20px;
+
+  font-size: 32px;
+  font-weight: 500;
 }
 
-.button {
-  width: 210px;
-  height: 79px;
+button {
+  width: 210px !important;
+  height: 79px !important;
   padding: 28px, 20px, 28px, 20px;
   border-radius: 20px;
-  background: rgba(2, 74, 122, 1);
-}
-
-.send {
+  color: rgba(245, 251, 255, 1);
   background: rgba(2, 74, 122, 1);
 }
 
@@ -95,10 +95,21 @@ form {
   width: 316px;
   height: 862px;
   box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
-
+  padding: 16px;
   border: 2px solid rgba(2, 74, 122, 1);
   border-radius: 20px;
   background: linear-gradient(0deg, #f5fbff, #f5fbff);
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.member {
+  max-width: 291px;
+  max-height: 182px;
 }
 
 .field-message {
