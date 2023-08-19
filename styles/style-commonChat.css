@@ -61,6 +61,30 @@ form {
   padding-top: 20px;
 }
 
+.button {
+  width: 210px;
+  height: 79px;
+  padding: 28px, 20px, 28px, 20px;
+  border-radius: 20px;
+  background: rgba(2, 74, 122, 1);
+}
+
+.send {
+  background: rgba(2, 74, 122, 1);
+}
+
+.form-control {
+  width: 675px;
+  height: 79px;
+  border: 2px solid rgba(2, 74, 122, 1);
+  border-radius: 20px;
+  gap: 10px;
+  padding: 28px, 20px, 28px, 20px;
+  background: linear-gradient(0deg, #f5fbff, #f5fbff),
+    linear-gradient(0deg, #024a7a, #024a7a);
+  box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
+}
+
 .chat-content {
   max-width: 1240px;
   max-height: 862px;
@@ -88,6 +112,7 @@ form {
   border-radius: 20px;
   border: 2px solid rgba(2, 74, 122, 1);
   padding: 10px, 20px, 16px, 20px;
+  box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
   background: linear-gradient(0deg, #f5fbff, #f5fbff);
 }
 
