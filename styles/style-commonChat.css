@@ -43,6 +43,7 @@ h3 {
   text-align: center;
   line-height: 26px;
   color: rgba(15, 30, 40, 1);
+  margin-bottom: 20px;
 }
 h2 {
   color: rgba(15, 30, 40, 0.6);
@@ -110,6 +111,28 @@ button {
 .member {
   max-width: 291px;
   max-height: 182px;
+  gap: 20px;
+}
+
+.member-name {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(15, 30, 40, 1);
+}
+
+.avatar {
+  width: 139.71px;
+  height: 169.47px;
+  background: linear-gradient(0deg, #f5fbff, #f5fbff),
+    linear-gradient(0deg, #024a7a, #024a7a);
+  border-radius: 20px;
+  border: 2px solid rgba(2, 74, 122, 1);
+  box-shadow: 4px 4px 10px 0px rgba(2, 74, 122, 0.3);
+}
+
+.avatar img {
+  position: relative;
+  top: -13px;
 }
 
 .field-message {
