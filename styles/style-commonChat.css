@@ -57,16 +57,15 @@ h2 {
 }
 
 form {
-  width: 905px;
+  max-width: 905px;
   height: 79px;
   padding-top: 20px;
-
   font-size: 32px;
   font-weight: 500;
 }
 
 button {
-  width: 210px !important;
+  max-width: 210px !important;
   height: 79px !important;
   padding: 28px, 20px, 28px, 20px;
   border-radius: 20px;
@@ -75,7 +74,7 @@ button {
 }
 
 .form-control {
-  width: 675px;
+  max-width: 675px;
   height: 79px;
   border: 2px solid rgba(2, 74, 122, 1);
   border-radius: 20px;
