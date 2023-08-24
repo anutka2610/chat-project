@@ -65,10 +65,10 @@ form {
 }
 
 button {
-  max-width: 210px !important;
-  height: 79px !important;
+  max-width: 120px !important;
+  height: 72px !important;
   padding: 28px, 20px, 28px, 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   color: rgba(245, 251, 255, 1);
   background: rgba(2, 74, 122, 1);
 }
@@ -291,6 +291,109 @@ button {
 }
 
 @media (max-width: 363px) {
+  h1 {
+    width: 361px;
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .chat-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  form {
+    max-width: 361px;
+    height: 72px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 16px;
+  }
+
+  button {
+    width: 210px !important;
+    height: 72px !important;
+    padding: 28px, 20px, 28px, 20px !important;
+    border-radius: 10px;
+    color: rgba(245, 251, 255, 1);
+    background: rgba(2, 74, 122, 1);
+  }
+
+  .form-control {
+    max-width: 225px;
+    height: 72px;
+    border: 1px solid rgba(2, 74, 122, 1);
+    border-radius: 10px;
+    gap: 10px;
+    padding: 30px, 20px, 30px, 20px;
+    background: linear-gradient(0deg, #f5fbff, #f5fbff),
+      linear-gradient(0deg, #024a7a, #024a7a);
+    box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
+  }
+
+  .chat-members {
+    width: 361px;
+    height: 156px;
+    padding: 10px;
+    border: 1px solid rgba(2, 74, 122, 1);
+    border-radius: 10px;
+  }
+  .members {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 340px;
+    height: 118px;
+    gap: 4px;
+  }
+
+  .member {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .avatar {
+    max-width: 71.2px;
+    max-height: 100px;
+    border: 1px solid rgba(2, 74, 122, 1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
+  }
+  .avatar img {
+    width: 74.05px;
+    height: 103px;
+    position: relative;
+    top: -5px;
+  }
+
+  .member-name {
+    font-size: 14px;
+  }
+
+  .field-message {
+    padding: 10px, 10px, 16px, 10px;
+    height: 498px;
+  }
+  .all-messages {
+    height: 498px;
+
+    border: 1px solid rgba(2, 74, 122, 1);
+    box-shadow: 2px 2px 8px 0px rgba(2, 74, 122, 0.3);
+  }
+
+  .search-form div {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   .toogles .navbar-nav {
     flex-direction: row;
   }
