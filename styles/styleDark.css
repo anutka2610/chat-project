@@ -279,7 +279,7 @@ a {
     font-size: 12px;
   }
   .chats {
-    margin: 0px 0 40px 0;
+    margin: 100px 0 40px 100px !important;
   }
 
   .wrap {
